@@ -1,0 +1,17 @@
+[
+  {
+    "inject":[
+      { "type": "splitUsersByTime",
+        "args": [5,
+          { "type": "rampUsers", "args": [1, 1] },
+          1]
+      }
+    ],
+    "throttle":[
+      { "type": "reachRps", "args": [2, 1] },
+      { "type": "jumpToRps", "args": [4] },
+      { "type": "holdFor", "args": [10] }
+    ],
+    "api": "dummy"
+  }
+]

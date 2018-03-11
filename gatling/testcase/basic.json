@@ -1,0 +1,15 @@
+[
+  {
+    "rampUsers": 2,
+    "rampTime": 1,
+    "qps": 20,
+    "api": "google"
+  },
+
+  {
+    "rampUsers": 2,
+    "rampTime": 1,
+    "qps": 20,
+    "api": "weather"
+  }
+]
