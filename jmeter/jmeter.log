@@ -1,0 +1,93 @@
+2018-03-11 16:18:45,046 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-03-11 16:18:45,079 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/4.0/libexec/bin/user.properties
+2018-03-11 16:18:45,080 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/4.0/libexec/bin/system.properties
+2018-03-11 16:18:45,090 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-03-11 16:18:45,090 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-03-11 16:18:45,090 INFO o.a.j.JMeter: java.version=1.8.0_101
+2018-03-11 16:18:45,090 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-03-11 16:18:45,090 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-03-11 16:18:45,091 INFO o.a.j.JMeter: os.arch=x86_64
+2018-03-11 16:18:45,091 INFO o.a.j.JMeter: os.version=10.12.6
+2018-03-11 16:18:45,091 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-03-11 16:18:45,091 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-03-11 16:18:45,091 INFO o.a.j.JMeter: Available Processors =4
+2018-03-11 16:18:45,097 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-03-11 16:18:45,097 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-03-11 16:18:45,097 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/4.0/libexec
+2018-03-11 16:18:45,097 INFO o.a.j.JMeter: user.dir  =/Users/nitendra.thakur/git/github/loadtest/jmeter
+2018-03-11 16:18:45,098 INFO o.a.j.JMeter: PWD       =/Users/nitendra.thakur/git/github/loadtest/jmeter
+2018-03-11 16:18:45,100 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: P17901 FullName: localhost
+2018-03-11 16:18:47,581 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-03-11 16:18:47,610 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Darcula]
+2018-03-11 16:18:47,610 INFO o.a.j.JMeter: Setting LAF to: com.apple.laf.AquaLookAndFeel
+2018-03-11 16:18:47,618 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-03-11 16:18:48,809 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-03-11 16:18:48,809 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-03-11 16:18:50,809 INFO k.a.j.JMeterPluginsUtils: JMeter-Plugins.org v.1.4.0
+2018-03-11 16:18:50,945 WARN o.a.j.g.u.MenuFactory: Configuration error, probably corrupt or missing third party library(jar)? Could not create class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui.
+java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/PartSource
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[JMeterPlugins-Standard.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[JMeterPlugins-Standard.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_101]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_101]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_101]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_101]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_101]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:174) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:141) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:106) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:155) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_101]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756) [?:1.8.0_101]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_101]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_101]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_101]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76) [?:1.8.0_101]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726) [?:1.8.0_101]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_101]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_101]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_101]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_101]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_101]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_101]
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.multipart.PartSource
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_101]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_101]
+	... 29 more
+2018-03-11 16:18:52,664 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-11 16:18:52,664 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-11 16:18:52,665 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-11 16:18:52,665 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-11 16:18:52,665 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-03-11 16:18:52,665 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-03-11 16:18:53,301 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-03-11 16:18:53,302 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/4.0/libexec/bin/proxyserver.jks
+2018-03-11 16:18:53,569 INFO o.a.j.s.FileServer: Default base='/Users/nitendra.thakur/git/github/loadtest/jmeter'
+2018-03-11 16:18:54,194 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-03-11 16:18:54,194 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-03-11 16:18:54,194 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-03-11 16:18:54,195 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-03-11 16:19:01,519 INFO o.a.j.g.a.Load: Loading file: /Users/nitendra.thakur/repos/github/loadtest/jmeter/main.jmx
+2018-03-11 16:19:01,520 INFO o.a.j.s.FileServer: Set new base='/Users/nitendra.thakur/repos/github/loadtest/jmeter'
+2018-03-11 16:19:01,708 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-03-11 16:19:01,734 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-03-11 16:19:01,736 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-03-11 16:19:01,741 INFO o.a.j.s.SaveService: Loading file: /Users/nitendra.thakur/repos/github/loadtest/jmeter/main.jmx
+2018-03-11 16:19:01,792 INFO o.a.j.u.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22
+2018-03-11 16:19:02,409 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-03-11 16:19:02,427 INFO o.a.j.s.FileServer: Set new base='/Users/nitendra.thakur/repos/github/loadtest/jmeter'
+2018-03-11 16:19:02,475 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-03-11 16:19:17,574 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-03-11 16:19:17,586 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-03-11 16:19:17,628 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-03-11 16:19:17,665 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-03-11 16:19:23,379 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-03-11 16:19:33,949 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-03-11 16:19:33,973 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
+2018-03-11 16:19:33,991 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.modifiers.BSFPreProcessor
